@@ -68,6 +68,24 @@ At each INTERVALO_ALERTAS (alert interval, in seconds), the bot:
 | 💸 Extreme rise | ≥ +10%    | “Huge rally!”           |
 
 # 🕒 Market Closing: 
-When the market closes (after 18:00h BRT):
-- Show open and close values of the day;
-- Informs the final variation.
+When the market closes (after 18:00 BRT):
+- Reports opening and closing prices for the day;
+- Shows the final daily variation.
+
+---
+
+# 🔧 Future improvements
+
+- Add charts for intraday visualization;
+- Track multiple tickers simultaneously;
+- Export logs to CSV or SQLite database;
+- Deploy to Railway for 24/7 uptime.
+
+---
+
+# 👨‍💻 Author
+João Henrique Nazar Tavares — Software Engineering student and developer of JBotInvest.
+
+---
+
+*💬 Note: This project is for educational purposes only and does not represent investment advice.*
