@@ -1,7 +1,15 @@
-# JBotInvest
-Telegram Bot created to monitorate NVIDA's stocks at B3.
+# 🤖 JBotInvest
 
---- 
+A Telegram Bot that monitors NVIDIA’s stocks at B3 in real time.
+
+---
+# 🔍 Overview
+
+JBotInvest is a Python-based Telegram bot designed to track NVIDIA stock prices on the Brazilian market (B3), send real-time alerts, daily summaries, and DCA suggestions directly to your Telegram chat.
+
+It uses Yahoo Finance data (yfinance) and automatically converts prices to BRL, including a fallback mode using *NVDA × USD/BRL* if BDR data is unavailable.
+
+---
 # 1️⃣ Create the bot at Telegram:
 1. At telegram, search for user: @BotFather;
 2. Send the command: /newbot;
