@@ -6,7 +6,7 @@ Telegram Bot created to monitorate NVIDA's stocks at B3.
 1. At telegram, search for user: @BotFather;
 2. Send the command: /newbot;
 3. Choose one name and @username exclusive (ex:@JBotInvest_bot);
-4. BotFather will awnser you with a message that contains your API's token, at this format: 1234567890:ABCDefGhIJKlmNoPQrstUVwxyZ
+4. BotFather will awnser you with a message that contains your API's token, at this format: ``` 1234567890:ABCDefGhIJKlmNoPQrstUVwxyZ ```
 5. Copy this token (he will be used in code).
 
 # 2️⃣ Get the chat ID:
