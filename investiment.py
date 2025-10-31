@@ -5,10 +5,10 @@ import pytz, requests, yfinance as yf
 TICKER_USA = "NVDA"
 TICKER_BDR = "NVDC34.SA"
 
-INTERVALO_ALERTAS = 65      # segundos
+INTERVALO_ALERTAS = 65      # segundos/seconds
 HEARTBEAT_CICLOS = 5
 
-APORTE_MENSAL = 300.00
+APORTE_MENSAL = 0 # coloque o valor/insert the value
 DIA_UTIL_DCA = 5
 
 ALERTA_QUEDA_FRACA = -0.02
@@ -280,3 +280,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
